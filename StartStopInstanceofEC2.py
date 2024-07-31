@@ -3,7 +3,7 @@ import boto3
 
 
 def welcome():
-    print('This script will help you to start or stop ec2 instances based on your required region and instance id')
+    print('This script will help you to start or stop ec2 instances based on your required region and instance  id')
 
 
 def get_ec2_con_for_region(my_region):
