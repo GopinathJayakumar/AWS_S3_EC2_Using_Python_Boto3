@@ -8,6 +8,6 @@ print(type(s3_obj))
 for each_bucket in s3_obj.buckets.all():
     print(each_bucket.name)
 
-# # upload file in to specific bucket:-
+# # upload file in to specific bucket:- 
 s3_obj.Bucket('gopinath_jayakumar').put_object(Key='python_snake.db')
 print('Uploaded')
